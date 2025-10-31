@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Example</title>
+</head>
+<body>
+
+    <h1>Welcome to My Basic Webpage</h1>
+    <hr>
+    <h2>About This Page</h2>
+    <p>This page demonstrates several basic HTML elements, including headings, lists, an image, and a simple form.</p>
+
+    <h3>Things I've Learned in HTML</h3>
+    <ul>
+        <li>**Headings** (using &lt;h1&gt; to &lt;h6&gt;)</li>
+        <li>**Paragraphs** (using &lt;p&gt;)</li>
+        <li>**Unordered Lists** (using &lt;ul&gt; and &lt;li&gt;)</li>
+        <li>**Inserting Images** (using &lt;img&gt;)</li>
+        <li>**Forms** (using &lt;form&gt; and &lt;input&gt;)</li>
+    </ul>
+
+    <h3>A Simple Image</h3>
+    <img src="placeholder.jpg" alt="A simple placeholder image" width="200" height="150"> 
+    <p>The image tag requires a <b>src</b> attribute for the image file path and an <b>alt</b> attribute for accessibility.</p>
+    <fieldset>
+    <legend><h3>Contact Me</h3></legend>
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="user_name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="user_email"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender" name="user_gender">Male
+        <input type="radio" id="gender" name="user_gender">Female<br><br>
+        
+        <label for="Mobile">Mobile:</label><br>
+        <select id="country_code" name="country_code">
+        <option value="+91">India(+91)</option>
+        <option value="+1">US(+1)</option>
+        </select>
+        <input type="number" id="number" name="user_mobile"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </fieldset>
+
+</body>
+</html>
