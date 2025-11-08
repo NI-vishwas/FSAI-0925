@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="header" class="myClass">This is Vishwas</h1>
+    <button id="addClass">Add Highlight</button>
+    <button id="removeClass">Remove Highlight</button>
+    <script>
+        let ele = document.getElementById('header')
+        const addBtn = document.getElementById('addClass');
+        const removeBtn = document.getElementById('removeClass');
+
+        addBtn.addEventListener('click',()=>{
+            ele.classList.add('highlight');
+            console.log("Highlight added");
+        })
+
+        removeBtn.addEventListener('click', ()=>{
+            ele.classList.remove('highlight');
+            console.log('Highlight Removed');
+        })
+    </script>
+</body>
+</html>

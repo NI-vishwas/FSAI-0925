@@ -1,0 +1,9 @@
+.myClass{
+    width: auto;
+    height: auto;
+    background-color: lightgray;
+}
+.highlight{
+    background-color: darkorange;
+    border: 2px red;
+}
