@@ -22,7 +22,9 @@ Note: Mongo uri should point to db
 node app.js
 ```
 ![](./images/output.png)
+
 5. We can test the app by using any api client such as postman
+
 - Register the user
 
 ![](./images/output_1.png)
