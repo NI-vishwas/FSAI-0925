@@ -21,22 +21,22 @@ Note: Mongo uri should point to db
 ```bash
 node app.js
 ```
-![](output.png)
+![](./images/output.png)
 5. We can test the app by using any api client such as postman
 - Register the user
 
-![](output_1.png)
+![](./images/output_1.png)
 
 - login as the user
 
-![](output_2.png)
+![](./images/output_2.png)
 
 - To add a property, add the `Bearer Token` in `Auth` header
 
-![](output_3.png)
+![](./images/output_3.png)
 
-![](output_4.png)
+![](./images/output_4.png)
 
 - Similarly get the list of properties (by adding same token)
 
-![](output_5.png)
+![](./images/output_5.png)
