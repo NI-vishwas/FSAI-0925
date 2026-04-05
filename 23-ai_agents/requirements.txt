@@ -1,0 +1,11 @@
+python-dotenv
+pytesseract
+transformers[sentencepiece] 
+Pillow 
+torch 
+pdf2image
+langchain 
+langchain-community 
+langchain-google-genai 
+python-dotenv
+google-genai
